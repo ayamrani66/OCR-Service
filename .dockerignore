@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/
+.env
+tests/
+test_service.py
+test_schema.py
+storage/logs/*.log

@@ -1,0 +1,8 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+groq==0.15.0
+python-multipart==0.0.20
+pydantic==2.10.4
+ollama==0.4.7
+## ollama pull qwen2.5vl:7b

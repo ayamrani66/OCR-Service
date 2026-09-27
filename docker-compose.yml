@@ -1,0 +1,11 @@
+services:
+  ocr-api:
+    build:
+      context: .
+      dockerfile: .deploy/Dockerfile
+    ports:
+      - "5003:5003"
+    env_file:
+      - .env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
